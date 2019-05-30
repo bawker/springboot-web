@@ -18,6 +18,4 @@ spring:
   devtools:
     livereload:
       enabled: true
-  thymeleaf:
-    cache: false
  

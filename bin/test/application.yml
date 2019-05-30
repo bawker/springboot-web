@@ -9,5 +9,3 @@ spring:
   profiles: local
   jpa:
     show-sql: true
-  thymeleaf:
-    cache: false
