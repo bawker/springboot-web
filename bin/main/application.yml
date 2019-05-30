@@ -15,5 +15,9 @@ spring:
   h2:
     console:
       enabled: true
-  handlebars:
-    cache: false 
+  devtools:
+    livereload:
+      enabled: true
+  thymeleaf:
+    cache: false
+ 
