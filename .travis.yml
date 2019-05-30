@@ -35,6 +35,6 @@ deploy:
     acl: public_read
     wait-until-deployed: true
     on:
-      repo: https://github.com/bawker/springboot-web.git #Github 주소
+      repo: bawker/springboot-web #Github 주소
       branch: master
  
