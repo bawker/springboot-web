@@ -27,7 +27,7 @@ notifications:
 before_deploy:
   - zip -r springboot-webservice *
   - mkdir -p deploy
-  - mv springboot-webservice.zip deploy/springboot-webservice.zip
+  - mv springboot-webservice.zip /springboot-webservice.zip
   
 deploy:
   - provider: s3
