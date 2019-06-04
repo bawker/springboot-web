@@ -40,5 +40,5 @@ deploy:
     wait-until-deployed: true
     on:
       repo: bawker/springboot-web #Github 주소
-      branch: master
+      branch: master 
  
